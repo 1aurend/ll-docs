@@ -29,7 +29,7 @@ This line runs the actual probe. Inside the square brackets are the options we'r
 
 This line converts the output of the ffprobe into clean JSON. To see what it does, try commenting out this line and logging ffprobe to the console directly.
 
-console.log(JSON.stringify(output, null, 4));
+    console.log(JSON.stringify(output, null, 4));
 
 Lastly, we log to the console the result of our probe. Using JSON.stringify cleans up linespacing and indents to make it easier to read. Again, to see what it does, try logging just the variable `output` without stringify.
 
