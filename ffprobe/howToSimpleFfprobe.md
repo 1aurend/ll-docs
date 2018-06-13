@@ -9,13 +9,13 @@ OK - Let's get to it. In this repository is a file called `simple_ffprobe.js`. T
 
 Let's go through it line by line:
 
-``` const cp = require('child_process');
+```const cp = require('child_process');
 ```
 
 Here we're requiring an existing node package, that is a module someone else has written. To use a package, it needs to be installed in the **node_modules** folder in the same directory (or a parent directory of it) as the script you're running. You can also check to see if a package is installed by checking the **package.json** file. For more on installing node packages see this (to be written?) tutorial.
 
 
-``` var videoPath = process.argv.slice(2);
+```var videoPath = process.argv.slice(2);
 ```
 
 Next we define a variable that's going to hold the path the video file we're probing. `process.argv` takes an argument, in this case the path as a string, from the command line.  
