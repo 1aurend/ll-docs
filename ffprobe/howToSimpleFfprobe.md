@@ -37,7 +37,7 @@ Lastly, we log to the console the result of our probe. Using JSON.stringify clea
 
 ## Running the Probe
 
-In terminal, navigate to directly holding your ffprobe script and run the following:
+In terminal, navigate to directory holding your ffprobe script. Then install your dependencies (`npm install`) and run the following:
 
     node simple_ffprobe [path your video file]
 
