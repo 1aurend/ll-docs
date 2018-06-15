@@ -47,6 +47,6 @@ You can get the path by dragging and dropping your video into terminal. Don't in
 
 ## Next Challenge!
 
-Now try accessing some specific data about your video and logging to the console just that piece of info. For example, if you log output.streams.duration, your log could read something like this:
+Now try accessing some specific data about your video and logging to the console just that piece of info. For example, if you set a variable to = *output.streams.duration*, your log could read something like this:
 
     The video's duration is xxx.
